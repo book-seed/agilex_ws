@@ -43,6 +43,10 @@ bash pkglink.sh
 该脚本会将 `deps/` 中的依赖包通过符号链接映射到 `src/` 目录，使 colcon 能够发现并构建它们。
 
 ### 3. 构建工作空间
+**安装系统依赖：**
+```bash
+rosdep install -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO -y
+```
 
 **首次构建（全量）：**
 

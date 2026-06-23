@@ -1,3 +1,6 @@
 [submodule "deps/mujoco_vendor"]
 	path = deps/mujoco_vendor
 	url = https://github.com/pal-robotics/mujoco_vendor.git
+[submodule "deps/mujoco_ros2_control"]
+	path = deps/mujoco_ros2_control
+	url = https://github.com/ros-controls/mujoco_ros2_control.git
